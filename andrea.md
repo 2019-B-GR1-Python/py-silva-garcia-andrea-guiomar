@@ -1,2 +1,0 @@
-Andrea Silva
-Guiomar García
