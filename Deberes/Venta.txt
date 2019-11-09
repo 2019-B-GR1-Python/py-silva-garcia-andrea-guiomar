@@ -1,1 +1,3 @@
 Marcelo,1,4,89000
+Carmen,3,5,7800
+Emilio,2,4,65000
