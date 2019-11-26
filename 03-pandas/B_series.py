@@ -6,6 +6,7 @@ Created on Tue Nov 19 07:57:54 2019
 """
 import numpy as np
 import pandas as pd
+
 lista_numeros= [1,2,3,4]
 tupla_numeros=(1,2,3,4)
 np_numeros= np.array((1,2,3,4))
@@ -75,7 +76,7 @@ resp_sen= np.sin(serie_valor_ciudad)
 ciudades_uno=pd.Series({
         "Montañita":300,
         "Guayaqui":1000,
-        "Qito":20000})
+        "Quito":20000})
 
 ciudades_do=pd.Series({
         "Loja":300,
@@ -87,7 +88,7 @@ total_ciudad=ciudades_uno+ciudades_do
 
 ciudades_uno["Loja"]=0
 
-ciudades_do["Qito"]=0
+ciudades_do["Quito"]=0
 ciudades_do["Montañita"]=0
 
 ciu_add=ciudades_uno.add(ciudades_do)
@@ -127,6 +128,19 @@ ciudades_uno.tail(2)
 
 ciudades_uno.sort_values(ascending=False).head(2)
 ciudades_uno.sort_values().tail(2)
+
+#funcion map convertir la seie en un arreglo
+def calculo(valor):
+    if(valor <=1000):
+        return valor*1.05
+    if(valor >1000 and valor <= 5000):
+        return valor* 1.10
+    if(valor>5000):
+        return valor*1.15
+ciudad_calculada=ciudades_uno.map(calculo)
+
+
+
 
 
 
