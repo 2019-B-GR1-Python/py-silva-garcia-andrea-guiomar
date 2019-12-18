@@ -76,3 +76,21 @@ chart.add_series({
 })
 worksheet.insert_chart('C1', chart)
 workbook.close()
+
+
+
+
+### SQL ####
+
+#DE VEZ DE TRY CATCH
+
+with sqlite3.connect("C://Users//Asus//Documents//GitHub//py-silva-garcia-andrea-guiomar//03-pandas//Data//bdd_artist.db") as conexion:
+    df5.to_sql('py_artistas', conexion)
+
+
+## with mysql.connect(mysql://user:password@ip: puerto)
+
+
+
+### json ##
+    df.to_json("C://Users//Asus//Documents//GitHub//py-silva-garcia-andrea-guiomar//03-pandas//Data//artistas.json", orient='table')
