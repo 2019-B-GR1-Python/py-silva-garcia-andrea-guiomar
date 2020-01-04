@@ -88,9 +88,10 @@ with sqlite3.connect("C://Users//Asus//Documents//GitHub//py-silva-garcia-andrea
     df5.to_sql('py_artistas', conexion)
 
 
-## with mysql.connect(mysql://user:password@ip: puerto)
+## with mysql.connect(mysql://user:password@ip: puerto/nombre_base)
 
 
 
 ### json ##
-    df.to_json("C://Users//Asus//Documents//GitHub//py-silva-garcia-andrea-guiomar//03-pandas//Data//artistas.json", orient='table')
+    df.to_json("C://Users//Asus//Documents//GitHub//py-silva-garcia-andrea-guiomar//03-pandas//Data//artistas.json")
+     df.to_json("C://Users//Asus//Documents//GitHub//py-silva-garcia-andrea-guiomar//03-pandas//Data//artistas_table.json", orient='table')

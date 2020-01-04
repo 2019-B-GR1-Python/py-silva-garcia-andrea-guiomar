@@ -50,5 +50,26 @@ notas.loc[["Pepito","Juanita"],"nota1"]
 
 notas.loc[[True,False,True]] 
 condicion_nota=notas["nota1"] > 7
-mayores_siete=notas.loc[condicion_nota] 
+condicion_disci=notas["disciplina"] > 7
+mayores_siete=notas.loc[condicion_nota] [condicion_disci]
+
+## los de menores de 7 en disciplina se sube a 7
+condicion_disci_dos=notas["disciplina"] < 7
+notas.loc[condicion_disci_dos,"disciplina"]=7
+
+##10 en la fila de pepito
+
+notas.loc["Pepito",:]=10
+
+
+##todos deben tener 7 en la disciplina
+
+notas.loc[:,["disciplina"]]=7
+
+##Añadir columnda promedio
+
+array_promedio=(notas["nota1"]+notas["disciplina"])/2
+notas=array_promedio
+
+
 
