@@ -45,7 +45,32 @@ $scrapy shell http://quotes.toscrape.com/
 
 
 ``````
-permite interactuar con la repsuesta se abre un interpretador de python 
+permite interactuar con la repsuesta se abre un interpretador de python
+
+``````
+$response.css('.row > div > div:nth-child(2) > .text::text').extract()
+
+``````
+
+
+``````
+$ response.xpath('/html/head/title').extract()
+$ response.xpath('//title').extract()
+$ response.xpath('/html/body/div/div[2]/div[2]/h2').extract()
+$ response.xpath('/html/body/div/div[2]/div[2]/h2').extract()
+$ response.xpath("//div[@class='quote']/span[@class='text']").extract_first()
+$ response.xpath("//div[@class='quote']/span[@class='text']/text()").extract_first()
+$ //div[@class='quote']/span/a/@href").extract_first()
+
+```
+
+
+## Scrapy startproject  `nombre_proyecto`
+```
+$scrapy startproject arania_basica
+```
+
+ 
 
 
 
