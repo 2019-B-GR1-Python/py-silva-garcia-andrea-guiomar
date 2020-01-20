@@ -6,10 +6,75 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        /*ID
+        # + NOMBRE DEL ID*/
+        #titulo-uno{
+            background-color: red;
+        }
 
+        /*NOMBRE DE LA ETIQUETA
+            NOMBRE DE LA ETIQUETA*/
+           p{
+               color: white;
+               background-color: black;
+           }
+           body{
+            color: tomato;
+           } 
+  /*CLASES
+           . +NOMBRE DE LA CLASE*/
+         
+           .fondo-verde{
+               background-color: green;
+           }
+
+
+           .texto-azul{
+               color: blue;
+           }
+           .texto-amarillo{
+               color:yellow;
+           }
+           .texto-cafe{
+               color: brown;
+           }
+           /*Etiqueta dentro de otra*/
+            li > p{
+                background-color: coral;
+                color: darkmagenta;
+            }
+            li > p.texto-amarillo{
+                color: goldenrod;
+            }
+            p.texto-amarillo.texto-cafe.texto-blanco{
+                color: pink;
+            }
     </style> 
 </head>
 <body>
-   <h1> Título </h1> 
+   <h1 id= "titulo-uno" class="texto-amarillo"> Título </h1> 
+   <p   id= "titulo-uno"
+       class ="fondo-verde" 
+       style="background-color: indigo"> Mi mamá </p>
+   <p   class="texto-amarillo texto-cafe texto-blanco" > me mima</p>
+   <ul>
+        <li>
+            <p> Muy </p>
+
+        </li>
+        <li>
+            <p> Buenos </p>
+    
+        </li>
+         <li>
+            <p class="texto-amarillo"> Dias </p>
+        
+         </li>
+    </ul>
+   <style>
+       .texto-blanco{
+           color: white;
+       }
+      </style> 
 </body>
 </html>
