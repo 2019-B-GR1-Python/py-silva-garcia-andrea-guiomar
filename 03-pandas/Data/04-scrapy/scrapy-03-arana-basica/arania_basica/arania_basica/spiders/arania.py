@@ -67,10 +67,7 @@ class IntroSpider(scrapy.Spider):
         link_libros =response.css('div.side_categories>ul>li>ul>li>a::attr(href)').extract()
         path_link_libros = 'http://books.toscrape.com/catalogue/category/books'
         path_link_libros_reemplazar = '..'
-        completo=self.completar_path(link_libros, path_link_libros, path_link_libros_reemplazar)
-        
-        self.nuevo_path_libros=completo[1:]
-         
+        completo=self.completar_path(link_libros, path_link_libros, path_link_libros_reemplazar)              
         titulos_extr =  response.css(self.titulos).extract()
         precios_str =  response.css(self.precio_libro).extract()
         precio_flotante=self.cambio_float(precios_str)
