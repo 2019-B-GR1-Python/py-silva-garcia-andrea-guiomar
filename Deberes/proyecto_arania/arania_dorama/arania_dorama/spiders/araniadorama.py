@@ -38,12 +38,16 @@ class AraniaSpider(scrapy.Spider):
         visitas=response.css(self.vistas).extract()
         for i in range(len(visitas)):
             visitas[i]=visitas[i].replace(",",".")
-
         popular=response.css(self.ranking).extract()
-        favoritos={'Titulo': titulos_ranking,'visitas': visitas,'popularidad': popular}
-        df=pd.DataFrame(favoritos,columns= ['Titulo','visitas','popularidad'])
-        pasar_csv=df.to_csv(r'C://Users//Asus//Documents//GitHub//py-silva-garcia-andrea-guiomar//Deberes//proyecto_arania//arania_dorama//arania_dorama//spiders//drama.csv',index = None, header=True)
-        print(df)
+        for j in range(len(popular)):
+            popular2=popular[j]
+            popular3=popular2[6:10]
+            print(popular2)
+            print(popular3)
+            favoritos={'Titulo': titulos_ranking,'visitas': visitas,'popularidad': float(popular3)}
+            df=pd.DataFrame(favoritos,columns= ['Titulo','visitas','popularidad'])
+            pasar_csv=df.to_csv(r'C://Users//Asus//Documents//GitHub//py-silva-garcia-andrea-guiomar//Deberes//proyecto_arania//arania_dorama//arania_dorama//spiders//drama.csv',index = None, header=True)
+            print(df)
 
         #nuevos_capitulos_generales=response.css(self.nuevos_capitulos).extract()
         link_catalogo=response.css(self.catalogo).extract()
@@ -74,16 +78,9 @@ class AraniaSpider(scrapy.Spider):
         print("entra a todo....")
         dramas=response.css(self.dramas_generales).extract()
         año_mas_capitulos=response.css(self.anio_mas_dramas).extract()
-        serie_dramas=pd.Series(dramas)
-        serie_manio_mas=pd.Series(año_mas_capitulos)
-        #print(dramas)
-        #print(año_mas_capitulos)
-        df1=pd.DataFrame(serie_dramas.values,columns='titulo filtro')
-
-        df2=pd.DataFrame(serie_manio_mas.values,columns='anio capitulos')
-        df = pd.merge(df1, df2, left_index=True, right_index=True)
-        pasar_csv2=df.to_csv(r'C://Users//Asus//Documents//GitHub//py-silva-garcia-andrea-guiomar//Deberes//proyecto_arania//arania_dorama//arania_dorama//spiders//drama2.csv',index = None, header=True)
-        print(df)
+        general={'drama_filtro':dramas,'anio_capitulos':año_mas_capitulos}
+        df=pd.DataFrame(general,columns=['drama_filtro','anio_capitulos'])
+        df.to_csv('drama2.csv')
         urls_drama_coreano=response.css(self.urls_dramas).extract()
         print(urls_drama_coreano)
         for url_corea in urls_drama_coreano:
@@ -92,18 +89,18 @@ class AraniaSpider(scrapy.Spider):
     
     def hacer_eso(self, response):
         print('Haciendo esto...')
-        titulo_drama=response.css(self.titulo_final).extract()
-        estrellas=response.css(self.estrellas).extract()
-        filtro=response.css(self.filtro_dorama).extract()
+        for i in range(len(response.css(self.urls_dramas).extract())):
+            titulo_drama=response.css(self.titulo_final).extract()
+            estrellas=response.css(self.estrellas).extract()
+            filtro=response.css(self.filtro_dorama).extract()
+            for i in range(len(filtro)):
+                cada_dorama={'titulo':titulo_drama,'estrellas':estrellas,'filtro':filtro[i]}
+                df=pd.DataFrame(cada_dorama,columns=['titulo','estrellas','filtro'])
+                df.to_csv('drama3.csv')
+            print(titulo_drama)
+            print(estrellas)
+            print(filtro)
         
-        dramas_descritos={'Titulo':titulo_drama,'Estrellas':estrellas}
-        df3=pd.DataFrame(dramas_descritos,columns= ['Titulo','Estrellas'])
-        pasar_csv3=df3.to_csv(r'C://Users//Asus//Documents//GitHub//py-silva-garcia-andrea-guiomar//Deberes//proyecto_arania//arania_dorama//arania_dorama//spiders//drama3.csv',mode='a',index = None, header=True)
-        print(df3)
-        print(titulo_drama)
-        print(estrellas)
-        print(filtro)
-        print(dramas_descritos)
 
 
            
