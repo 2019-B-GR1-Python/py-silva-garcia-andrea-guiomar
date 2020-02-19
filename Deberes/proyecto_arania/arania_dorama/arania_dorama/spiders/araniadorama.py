@@ -80,7 +80,7 @@ class AraniaSpider(scrapy.Spider):
         año_mas_capitulos=response.css(self.anio_mas_dramas).extract()
         general={'drama_filtro':dramas,'anio_capitulos':año_mas_capitulos}
         df=pd.DataFrame(general,columns=['drama_filtro','anio_capitulos'])
-        df.to_csv('drama2.csv')
+        df.to_csv('drama2.1.csv')
         urls_drama_coreano=response.css(self.urls_dramas).extract()
         print(urls_drama_coreano)
         for url_corea in urls_drama_coreano:
@@ -96,7 +96,7 @@ class AraniaSpider(scrapy.Spider):
             for i in range(len(filtro)):
                 cada_dorama={'titulo':titulo_drama,'estrellas':estrellas,'filtro':filtro[i]}
                 df=pd.DataFrame(cada_dorama,columns=['titulo','estrellas','filtro'])
-                df.to_csv('drama3.csv')
+                df.to_csv('drama3.csv', mode='a')
             print(titulo_drama)
             print(estrellas)
             print(filtro)
