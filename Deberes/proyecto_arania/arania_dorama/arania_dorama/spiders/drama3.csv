@@ -1,2 +1,312 @@
-,titulo,estrellas,filtro
-0,Sunny Again Tomorrow,5.0, Familiar
+titulo,estrellas,filtro
+0,Sunny Again Tomorrow,5.0,Familiar
+1,What Happens to My Family?,4.2,Comedia
+2,What Happens to My Family?,4.2,Romance
+3,What Happens to My Family?,4.2,Drama
+4,What Happens to My Family?,4.2,Familia
+5,What Happens to My Family?,4.2,Comedia
+6,What Happens to My Family?,4.2,Romance
+7,What Happens to My Family?,4.2,Drama
+8,What Happens to My Family?,4.2,Familia
+9,What Happens to My Family?,4.2,Comedia
+10,What Happens to My Family?,4.2,Romance
+11,What Happens to My Family?,4.2,Drama
+12,What Happens to My Family?,4.2,Familia
+13,What Happens to My Family?,4.2,Comedia
+14,What Happens to My Family?,4.2,Romance
+15,What Happens to My Family?,4.2,Drama
+16,What Happens to My Family?,4.2,Familia
+17,What Happens to My Family?,4.2,Comedia
+18,What Happens to My Family?,4.2,Romance
+19,What Happens to My Family?,4.2,Drama
+20,What Happens to My Family?,4.2,Familia
+21,What Happens to My Family?,4.2,Comedia
+22,What Happens to My Family?,4.2,Romance
+23,What Happens to My Family?,4.2,Drama
+24,What Happens to My Family?,4.2,Familia
+25,Last Minute Romance,4.2,Comedia
+26,Last Minute Romance,4.2,Drama
+27,Last Minute Romance,4.2,Romance
+28,Last Minute Romance,4.2,Comedia
+29,Last Minute Romance,4.2,Drama
+30,Last Minute Romance,4.2,Romance
+31,Last Minute Romance,4.2,Comedia
+32,Last Minute Romance,4.2,Drama
+33,Last Minute Romance,4.2,Romance
+34,Wednesday 3:30 p.m.,4.3,Romance
+35,Wednesday 3:30 p.m.,4.3,Comedia
+36,Wednesday 3:30 p.m.,4.3,Romance
+37,Wednesday 3:30 p.m.,4.3,Comedia
+38,Wednesday 3:30 p.m.,4.3,Romance
+39,Wednesday 3:30 p.m.,4.3,Comedia
+40,Wednesday 3:30 p.m.,4.3,Romance
+41,Wednesday 3:30 p.m.,4.3,Comedia
+42,Memory Love,3.9,Romance
+43,Memory Love,3.9,Drama
+44,Face Off,4.7,Drama
+45,Face Off,4.7,Romance
+46,The Whirlwind Girl,4.3,Acción
+47,The Whirlwind Girl,4.3,Juvenil
+48,The Whirlwind Girl,4.3,Romance
+49,The Whirlwind Girl,4.3,Acción
+50,The Whirlwind Girl,4.3,Juventud
+51,The Whirlwind Girl,4.3,Romance
+52,The Whirlwind Girl,4.3,Acción
+53,The Whirlwind Girl,4.3,Juventud
+54,The Whirlwind Girl,4.3,Romance
+55,The Whirlwind Girl,4.3,Acción
+56,The Whirlwind Girl,4.3,Juven1
+57,The Whirlwind Girl,4.3,Roman3ce
+58,The Whirlwind Girl,4.3,Acción
+59,The Whirlwind Girl,4.3,Juventud
+60,The Whirlwind Girl,4.3,Romance
+61,The Whirlwind Girl,4.3,Acción
+62,The Whirlwind Girl,4.3,Juventud
+63,The Whirlwind Girl,4.3,Romance
+64,Witch's Court,3.7,Romance
+65,W3tch's Court,3.7,Romance
+66,Witch's Court,3.7,Romance
+67,Memories of Love,3.9,Drama
+68,Memories of Love,3.9,Romance
+69,Andante,4.5,Romance
+70,Andante,4.5,Juventud
+71,Andante,4.5,Drama
+72,Andan3e,4.5,Romance
+73,Andante,4.5,Juventud
+74,Andante,4.5,Drama
+75,Andante,4.5,Romance
+76,Andante,4.5,Juventud
+77,Andante,4.5,Drama
+78,Andante,4.5,Romance
+79,Andante,4.5,Juventud
+80,Andante,4.5,Drama
+81,Andante,4.5,Romance
+82,Andante,4.5,Juventud
+83,Andante,4.5,Drama
+84,Andante,4.5,Romance
+85,Andante,4.5,Juventud
+86,Andante,4.5,Drama
+87,Beyond Light Yea1,3.8,Comedia
+88,Beyond Light Yea3s,3.8,Romance
+89,Beyond Light Yea3s,3.8,Drama
+90,Beyond Light Years,3.8,Comedia
+91,Beyond Light Yea3s,3.8,Romance
+92,Beyond Light Years,3.8,Drama
+93,Beyond Light Years,3.8,Comedia
+94,Beyond Light Years,3.8,Romance
+95,Beyond Light Years,3.8, Drama
+96,My First Love,4.6,Comedia
+97,My First Love,4.6, Romance
+98,My First Love,4.6, Drama
+99,My3First Love,4.6,Comedia
+100,My First Love,4.6, Romance
+101,My First Love,4.6, Drama
+102,My First Love,4.6,Comedia
+103,My First Love,4.6, Romance
+104,My First Love,4.6, Drama
+105,My First Love,4.6,Comedia
+106,My First Love,4.6,Romance
+107,My First Love,4.6, Drama
+108,My First Love,4.6,Comedia
+109,My First Love,4.6,Romance
+110,My First Love,4.6,Drama
+111,My First Love,4.6,Comedia
+112,My First Love,4.6,Romance
+113,My First Love,4.6, Drama
+114,Entourage,4.3,Comedia
+115,Entourage,4.3,melodrama
+116,Entourage,4.3,Comedia
+117,Entourage,4.3,melodrama
+118,Entourage,4.3,Comedia
+119,Entourage,4.3,melodrama
+120,Entourage,4.3,Comedia
+121,Entourage,4.3,melodrama
+122,Entourage,4.3,Comedia
+123,Entourage,4.3,melodrama
+124,Entourage,4.3,Comedia
+125,Entourage,4.3,melodrama
+126,Good Doctor,4.5,Drama
+127,Good Doctor,4.5,Político
+128,Good Doctor,4.5,medico
+129,Good Doctor,4.5,Drama
+130,Good Doctor,4.5,Polí1co
+131,Good Doctor,4.5,medico
+132,Good Doctor,4.5,Drama
+133,Good Doctor,4.5,Polí1co
+134,Good Doctor,4.5,medico
+135,Good Doctor,4.5,Drama
+136,Good Doctor,4.5,Polí1co
+137,Good Doctor,4.5,medico
+138,Good Doctor,4.5,Drama
+139,Good Doctor,4.5,Polí1co
+140,Good Doctor,4.5,medico
+141,Good Doctor,4.5,Drama
+142,Good Doctor,4.5,Polí1co
+143,Good Doctor,4.5,medico
+144,That Man Oh Soo,4.2,Comedia
+145,That Man Oh Soo,4.2,Comedia
+146,That Man Oh Soo,4.2,Comedia
+147,That Man Oh Soo,4.2,Comedia
+148,That Man Oh Soo,4.2,Comedia
+149,Wok of Love,4.9,Romance
+150,Wok of Love,4.9,Foo
+151,Wok of Love,4.9,Romance
+152,Wok of Love,4.9,Foo
+153,Wok 2f Love,4.9,Romance
+154,Wok of Love,4.9,Foo
+155,Wok 3f Love,4.9,Romance
+156,Wok of Love,4.9,Foo
+157,Wok of Love,4.9,Romance
+158,Wok of Love,4.9,Foo
+159,Wok of Love,4.9,Romance
+160,Wok of Love,4.9,Foo
+161,The Package,4.6,Amistad
+162,The Package,4.6,Aventura
+163,The Package,4.6,Vida
+164,The Package,4.6,Amistad
+165,The Package,4.6,Aventura
+166,The Package,4.6,Vida
+167,The Package,4.6,Amistad
+168,The Package,4.6,Aventura
+169,The Package,4.6,Vida
+170,The Package,4.6,Amistad
+171,The Package,4.6,Aventura
+172,The Package,4.6,Vida
+173,The Package,4.6,Amistad
+174,The Package,4.6,Aventura
+175,The Package,4.6,Vida
+176,Binggoo,3.1,Comedia
+177,Binggoo,3.1,Drama
+178,Binggoo,3.1,Romance
+179,Binggoo,3.1,Comedia
+180,Binggoo,3.1,Drama
+181,Binggoo,3.1,Romance
+182,Binggoo,3.1,Comedia
+183,Binggoo,3.1,Drama
+184,Binggoo,3.1,Romance
+185,Binggoo,3.1,Comedia
+186,Binggoo,3.1,Drama
+187,Binggoo,3.1,Romance
+188,Binggoo,3.1,Comedia
+189,Binggoo,3.1,Drama
+190,Binggoo,3.1,Romance
+191,Binggoo,3.1,Comedia
+192,Binggoo,3.1,Drama
+193,Binggoo,3.1,Romance
+194,Thumping Spike 2,4.9,Romance
+195,Thumping Spike 2,4.9,Romance
+196,Thumping Spike 2,4.9,Romance
+197,Thumping Spike 2,4.9,Romance
+198,Thumping Spike 2,4.9,Romance
+199,Thumping Spike 2,4.9,Romance
+200,Deserving of the Name,4.1,Comedia
+201,Deserving of the N3me,4.1,F2ntas2
+202,Deserving of the Name,4.1,Histórico
+203,Deserving of the Name,4.1,M3dic12
+204,Deserving of the Name,4.1,Comedia
+205,Deserving of the Name,4.1,Fantasia
+206,Deserving of the Name,4.1,Histórico
+207,Deserving of the Name,4.1,Médico
+208,Deserving of the Name,4.1,Comedia
+209,Deserving of the Name,4.1,Fantasia
+210,Deserving of the Name,4.1,Histórico
+211,Deserving of the Name,4.1,Médico
+212,Deserving of the Name,4.1,Comedia
+213,Deserving of the Name,4.1,Fantasia
+214,Deserving of the Name,4.1,Histórico
+215,Deserving of the Name,4.1,Médico
+216,Deserving of the Name,4.1,Comedia
+217,Deserving of the Name,4.1,Fantasia
+218,Deserving of the Name,4.1,Histórico
+219,Deserving of the Name,4.1,Médico
+220,Deserving of the Name,4.1,Comedia
+221,Deserving of the Name,4.1,Fantasia
+222,Deserving of the Name,4.1,Histórico
+223,Deserving of the Name,4.1,Médico
+224,Eulachacha Waikiki,4.5,Comedia
+225,Eulachacha Waikiki,4.5,Romance
+226,Eulachacha Waikiki,4.5,Comedia
+227,Eulachacha Waikiki,4.5,Romance
+228,Eulachacha Waikiki,4.5,Comedia
+229Eulachacha Waikiki,4.5,Romance
+230,Eulachacha Waikiki,4.5,Comedia 
+231,Eulachacha Waikiki,4.5,Romance
+232,Eulachacha Waikiki,4.5,Comedia
+233,Eulachacha Waikiki,4.5,Romance
+234,Love of Aurora,3.8,Romance
+235,Love of Aurora,3.8,Comedia
+236,Love of Aurora,3.8,Drama
+237,Love of Aurora,3.8,Romance
+238,Love of Aurora,3.8,Comedia
+239,Love of Aurora,3.8,Drama
+240Love of Aurora,3.8,Romance
+241,Love of Aurora,3.8,Comedia
+242,Love of Aurora,3.8,Drama
+243,Love of Aurora,3.8,Romance
+244,Love of Aurora,3.8,Comedia
+245,Love of Aurora,3.8,Drama
+246,Love of Aurora,3.8,Romance
+247,Love of Aurora,3.8,Comedia
+248,Love of Aurora,3.8,Drama
+249,You Drive Me Crazy,4.2,Romance
+250,You Drive Me Crazy,4.2,Drama
+251,You Drive Me Crazy,4.2,Amistad
+252,You Drive Me Crazy,4.2,Romance
+253,You Drive Me Crazy,4.2,Drama
+254,You Drive Me Crazy,4.2,Amistad
+255,The Big Boss,3.9,Comedia
+256,The Big Boss,3.9,Comedia
+257,Untou2hable Lovers,4.7,Drama
+258,Untouchable Lovers,4.7,Drama
+259,Untouchable Lovers,4.7,Drama
+260,Untouchable Lovers,4.7,Drama
+261,Untouchable Lovers,4.7,Drama
+262,Untouchable Lovers,4.7,Drama
+263,General and I,4.4,Histórico
+264,General and I,4.4,Romance
+265,General and I,4.4,Histórico
+266,General and I,4.4,Romance
+267,General and I,4.4,Histórico
+268,General and I,4.4,Romance
+269,General and I,4.4,Histórico
+270,General and I,4.4,Romance
+271,General and I,4.4,Histórico
+272,General and I,4.4,Romance
+273,General and I,4.4,Histórico
+274,General and I,4.4,Romance
+275,Jugglers,4.2,Romance
+276,Jug3lers,4.2,Comedia
+277,Jugglers,4.2,Drama
+278,Jugglers,4.2,Romance
+279,Jugglers,4.2,Comedia
+280,Jugglers,4.2,Drama
+281,Jugglers,4.2,Romance
+282,Jugglers,4.2,Comedia
+283,Jugglers,4.2,Drama
+284,Jugglers,4.2,Romance
+285,Jugglers,4.2,Comedia
+286,Jugglers,4.2,Drama
+287,Jugglers,4.2,Romance
+288,Jugglers,4.2,Comedia
+289,Jugglers,4.2,Drama
+290,Jugglers,4.2,Romance
+291,Jugglers,4.2,Comedia
+292,Jugglers,4.2,Drama
+293,Strongest Deliveryman,4.2,Romance
+294,Strongest Deliveryman,4.2,Romance
+295,Strongest Deliveryman,4.2,Romance
+296,Strongest Deliveryman,4.2,Romance
+297,Strongest Deliveryman,4.2,Romance
+298,Strongest Deliveryman,4.2,Romance
+299,Long For You,4.8,Romance
+300,Long For You,4.8,Comedia
+301,Long For You,4.8,Drama
+302,Long For You,4.8,Romance
+303,Long For You,4.8,Comedia
+304,Long For You,4.8,Drama
+305,Long For You,4.8,Romance
+306,Long For You,4.8,Comedia
+307,Long For You,4.8,Drama
+308,Long For You,4.8,Romance
+309,Long For You,4.8,Comedia
+310,Long For You,4.8,Drama
